@@ -2420,6 +2420,21 @@ namespace sharpAHK_Dev
             #region === SQLite: UserLists ===
 
 
+            /// <summary>
+            /// Launches New List Editor Dialog with Ability to Edit / Save User Lists to SQLite Db
+            /// </summary>
+            /// <param name="ListName">Optional Name of List to Populate Editor on Startup</param>
+            /// <example>
+            ///             _Database.SQLite sqlite = new _Database.SQLite();
+            ///             sqlite.ListEditor();
+            /// </example>
+            public void ListEditor(string ListName = "")
+            {
+                sharpAHK_Dev.Controls.listEditor form = new sharpAHK_Dev.Controls.listEditor(ListName);
+                form.Show();
+            }
+
+
             /// <summary> create a tag table in Sqlite Db File</summary>
             /// <param name="NewDBFile"> </param>
             /// <param name="TableName"> </param>

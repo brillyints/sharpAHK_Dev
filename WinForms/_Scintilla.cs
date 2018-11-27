@@ -610,7 +610,7 @@ namespace sharpAHK_Dev
 
 
         /// <summary>
-        /// Launches New Scinilla Dialog with Ability to Edit / Save Wordlists
+        /// Launches New Scintilla Dialog with Ability to Edit / Save Wordlists
         /// </summary>
         /// <param name="sci">Scintilla Control</param>
         /// <param name="Text">Optional Text to Populate Control</param>
